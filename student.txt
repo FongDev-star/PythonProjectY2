@@ -1,0 +1,3 @@
+101|Sivfong|21|Male|CS
+100|Dara|20|Male|CS
+102|Lina|25|Female|Business
