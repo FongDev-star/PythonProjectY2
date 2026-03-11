@@ -18,3 +18,4 @@ def view_student():
 
     line("-")
     pause()
+    
