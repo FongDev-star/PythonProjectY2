@@ -1,4 +1,4 @@
-from file_handler import load_students
+from file_handler import load_students, save_students
 from ui import header, line, pause
 
 
@@ -24,6 +24,7 @@ def sort_student():
     else:
         print("Invalid choice.")
         return
+    save_students(students)
 
     print("\nSorted Result:\n")
     print(f"{'ID':<10}{'Name':<20}{'Age':<6}{'Gender':<10}{'Major':<15}")
